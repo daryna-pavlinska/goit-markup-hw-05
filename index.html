@@ -453,6 +453,24 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="bottom-subscribe">
+            <label for="footer-email">
+              <input
+                type="text"
+                placeholder="E-mail"
+                id="footer-email"
+                class="bottom-subscribe-email"
+            /></label>
+            <button type="submit" class="bottom-subscribe-submit">
+              Subscribe
+              <svg class="send" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -525,7 +543,7 @@
               <a class="privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
-          <button type="submit">Send</button>
+          <button class="button-modal send-modal" type="submit">Send</button>
         </form>
       </div>
     </div>
